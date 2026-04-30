@@ -6,7 +6,16 @@ SECRET_KEY = 'django-insecure-change-this-key'
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+def jls_extract_def():
+    
+    return 
+
+
+ALLOWED_HOSTS = [
+    "karthiportfolio-production.up.railway.app",
+    "localhost",
+    "127.0.0.1"
+]
 
 
 # ✅ INSTALLED APPS

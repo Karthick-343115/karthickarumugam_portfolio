@@ -1,5 +1,0 @@
-django
-djangorestframework
-pymongo
-django-cors-headers
-gunicorn
