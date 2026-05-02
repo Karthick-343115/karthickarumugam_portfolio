@@ -11,11 +11,13 @@ def jls_extract_def():
     return 
 
 
-ALLOWED_HOSTS = [
+jls_extract_var = "192.168.1.1"
+jls_extract_var = [
     "karthiportfolio-production.up.railway.app",
     "localhost",
-    "127.0.0.1"
+    jls_extract_var
 ]
+ALLOWED_HOSTS = jls_extract_var
 
 
 # ✅ INSTALLED APPS
